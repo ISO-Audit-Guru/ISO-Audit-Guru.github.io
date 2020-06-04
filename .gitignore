@@ -1,0 +1,6 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+Icon
+.DS_Store
+*.Identifier
