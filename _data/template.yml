@@ -1,0 +1,36 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: E887B2
+  secondary: 96409B
+  secondary-dark: 333
+  muted: 777
+
+# Font Families
+font:
+  primary: 'Montserrat,Helvetica,Arial,sans-serif'
+  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+
+about: |
+  > “A management system is the way in which an organization manages the interrelated parts of its
+  business in order to achieve its objectives. These objectives can relate to a number of different
+  topics, including product or service quality, operational efficiency, environmental performance,
+  health and safety in the workplace and many more”
+  
+  thus defined the ISO about a management system.
+
+  ISO Audit Guru helps organisations address the requirements of popular management systems and
+  lead them to certifications. They have over a decade of experience in auditing, implementing and
+  training in various management systems.
+
+  While a management system helps organisation manage their processes more efficiently, different
+  management systems different needs specifically. ISO 9001:2015 addresses the quality by ensuring
+  conformity of products and services to applicable requirements. ISO 14001:2015 addresses the
+  environment by ensuring protection of environment and prevention of pollution. ISO 45001:2018
+  addresses workplace health and safety by preventing work-related injury and ill-health to workers
+  and to provide safe and healthy workplaces. ISO 27001:2013 addresses the issue of protecting the
+  information assets in an organisation by securing its confidentiality, integrity and availability. ISO
+  50001:2018 addresses the need for improvement of energy performance of an organisation. ISO
+  22000:2018 addresses the issue of safety of food that is consumed, throughout its food chain.
+
+  All the management systems follow as _Plan-Do-Check-Act_ cycle that has been a time-tested recipe
+  for success for many an organisation.
