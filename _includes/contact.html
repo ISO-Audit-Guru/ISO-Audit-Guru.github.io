@@ -13,29 +13,47 @@
                       <input type="hidden" name="_subject" value="Sent from github page" />
                       <input type="hidden" name="_language" value="en" />
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="control-group form-group">
-                                    <input type="text" class="form-control" placeholder="First Name *" id="name" required name="name" data-validation-required-message="Please enter your First Name.">
-                                    <p class="help-block text-danger"></p>
+                            <div class="col-sm-6 contact-details">
+                                <div class="row">
+                                    <div class="col-xs-2"><i class="fa fa-envelope fa-2x contact-icon"></i></div>
+                                    <div class="col-xs-8">
+                                        <div class="row"><strong>Send us an email at</strong></div>
+                                        <br>
+                                        <div class="row">asdkasda@kasdjnaskdn.com</div>
+                                    </div>
                                 </div>
-                                <div class="control-group form-group">
-                                    <input type="email" class="form-control" placeholder="Email Address *" id="email" required name="_replyto" data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
+
+                                <br>
+                                <div class="row">
+                                    <div class="col-xs-2"><i class="fa fa-phone fa-2x contact-icon"></i></div>
+                                    <div class="col-xs-8">
+                                        <div class="row"><strong>Call us at</strong></div>
+                                        <br>
+                                        <div class="row">984684684648</div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <br>
+                            <div class="col-sm-6 text-center">
+                                <div class="control-group form-group">
+                                    <input type="text" class="form-control" placeholder="First Name *" id="name" required name="name"
+                                        data-validation-required-message="Please enter your First Name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group form-group">
+                                    <input type="email" class="form-control" placeholder="Email Address *" id="email" required name="_replyto"
+                                        data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
                                 <div class="control-group form-group">
                                     <textarea class="form-control" placeholder="Do we need a placeholder message here? *" id="message" required name="message" data-validation-required-message="Please let me know how I can help you."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            
-                            <br>
-                            <div class="col-lg-12 text-center">
+                                <div class="clearfix"></div>
                                 <div id="success"></div>
-                                <button id="sendMessageButton" type="submit" class="btn btn-xl">Send Message</button>
+                                <button id="sendMessageButton" type="submit" class="btn btn-xl submit-button">Send Message</button>
                             </div>
+                            
                         </div>
                     </form>
                 </div>

@@ -276,7 +276,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     /* background-image: url('{{ site.baseurl }}/img/header-bg1.PNG'); */
-    background-image: linear-gradient(to bottom, purple , white);;
+    background-image: linear-gradient(to bottom, #4c2c59 , white);;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -964,3 +964,22 @@ img{
     margin-left: 5px;
     margin-right: 5px;
 }
+
+.tab { margin-left: 1rem; }
+
+.contact-details{
+    color: white;
+    font-size: 110%;
+}
+
+.contact-icon{
+    margin-top: -20%;
+    margin-bottom: 20px;
+}
+
+/* .submit-button {
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+    position: relative;
+} */
