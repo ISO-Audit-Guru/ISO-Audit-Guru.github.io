@@ -4,3 +4,4 @@ _site/
 Icon
 .DS_Store
 *.Identifier
+*.lock
