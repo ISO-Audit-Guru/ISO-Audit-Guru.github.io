@@ -282,6 +282,38 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.about-box {
+    border: 2px solid transparent ;
+    position: relative;
+    text-align: center;    
+}
+
+.cert-title {
+    text-transform: uppercase;
+    font-size: 110%;
+    font-weight: bold;
+    border-bottom: 2px solid grey;
+    margin-top: 2px;
+    /* box-shadow: 0px -2px 0px red inset; */
+}    
+
+.about-box {
+       box-shadow:inset 0px 0px 0px 2px grey;
+        /* max-width: 110%; */
+    }
+
+@media(min-width:768px) {
+    .about-toprow {
+        margin-bottom: 15px;
+    }
+    
+}
+
+.cert-name {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
 .home-button {
     color: white;
 }
