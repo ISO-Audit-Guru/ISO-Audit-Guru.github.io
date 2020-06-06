@@ -4,8 +4,22 @@
         <div class="row">
 
 <section class="main-slides">
+        <style>
+                .example::-webkit-scrollbar {
+                        display: none;
+                }
+
+                html,
+                body,
+                iframe {
+                        height: 100%;
+                }
+                iframe {
+                        overflow-x: hidden;
+                }
+        </style>
 	<article class="slide">
-        <iframe class="slideshow-iframe" src="/../../slides/gallery" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+        <iframe class="slideshow-iframe" src="/../../slides/gallery" frameborder="0"  onload="resizeIframe(this)"></iframe>
 	</article>
 </section>
 </div>

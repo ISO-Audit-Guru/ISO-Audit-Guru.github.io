@@ -12,6 +12,19 @@
     img {
       min-width: 100%
     }
+    .example::-webkit-scrollbar {
+      display: none;
+    }
+  
+    html,
+    body,
+    iframe {
+      height: 100%;
+    }
+  
+    body {
+      overflow-y: hidden;
+    }
   </style>
 </head>
 <body>
@@ -53,6 +66,18 @@
       }
       startAnim_{{ elem[0] }}();
     {% endfor %}
+    // let height;
+    //   const sendPostMessage = () => {
+    //     if (height !== fetch_object('container').offsetHeight) {
+    //       height = document.getElementById('container').offsetHeight;
+    //       window.parent.postMessage({
+    //         frameHeight: height
+    //       }, '*');
+    //       console.log(height) // check the message is being sent correctly
+    //     }
+    //   }
+    // window.onload = () => sendPostMessage();
+    //   window.onresize = () => sendPostMessage();
 </script>
 </body>
 </html>
