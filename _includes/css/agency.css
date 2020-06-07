@@ -282,11 +282,6 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-.about-box {
-    border: 2px solid transparent ;
-    position: relative;
-    text-align: center;    
-}
 
 .cert-title {
     text-transform: uppercase;
@@ -299,14 +294,39 @@ fieldset[disabled] .btn-xl.active {
 
 .about-box {
        box-shadow:inset 0px 0px 0px 2px grey;
+       font-alignment: center;
+       border: 2px solid grey;
+       /* margin-bottom: 20px; */
+
         /* max-width: 110%; */
+        /* margin-right: 5px; */
+        margin-left: 2%;
+        margin-right: 2%;
     }
+
+.about-box {
+    border: 2px solid transparent ;
+    position: relative;
+    text-align: center;    
+}
+
 
 @media(min-width:768px) {
     .about-toprow {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
-    
+    .about-box {
+        /* font-size: 14px;    
+        margin-left: 0; */
+        /* margin-left: auto;
+        margin-right: auto; */
+    }    
+    .about-row {
+    justify-content: center;
+    flex-flow:row wrap;
+    display: flex;
+    /* width: 100%; */
+}
 }
 
 .cert-name {
@@ -1102,3 +1122,4 @@ img{
 .services-icon {
     color: #5c6ac4;
 }
+

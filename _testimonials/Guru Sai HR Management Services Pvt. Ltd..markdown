@@ -3,8 +3,7 @@ title: 'Guru Sai HR Management Services Pvt. Ltd.'
 image: ''
 businessurl: ''
 name: 'Rajeswaran S,'
-business: 'Lion Creative'
-jobtitle: 'Job title'
+jobtitle: 'Director'
 date: 2016-01-15
 ---
 
