@@ -28,12 +28,3 @@ permalink: pretty
 collections:
   testimonials:
     output: true
-  slides:
-    output: true
-
-defaults:
-  -
-    scope:
-      path: "_slides"  #__
-    values:
-      layout: "iframe"

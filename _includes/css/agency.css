@@ -282,6 +282,9 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+html,body{
+    overflow-x: hidden;
+}
 
 .cert-title {
     text-transform: uppercase;
@@ -347,7 +350,7 @@ header {
     background-attachment: scroll;
     /* background-image: url('{{ site.baseurl }}/img/header-bg1.PNG'); */
     /* background-image: linear-gradient(to bottom, #0000FF , white);; */
-    background-color: #5c6ac4;
+    background-color: #003298;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -826,6 +829,7 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
+    margin-top: 5px;
     display: block;
     width: 40px;
     height: 40px;
@@ -1076,7 +1080,7 @@ img{
 	appearance: none;
 	cursor: pointer;
 	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-	background-color: #5c6ac4;
+	background-color: #003298;
 	color: #ffffff;
 	border-width: 0;
 	border-style: solid;
@@ -1120,6 +1124,27 @@ img{
 }
 
 .services-icon {
-    color: #5c6ac4;
+    color: #003298;
 }
 
+.logo {
+    margin-top: -10%;
+}
+
+.gallery-slide {
+  position: relative;
+}
+
+.gallery-slide__caption {
+  bottom: 0;
+  min-height: 80px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+
+.slide__caption {
+    text-align: center;
+}
