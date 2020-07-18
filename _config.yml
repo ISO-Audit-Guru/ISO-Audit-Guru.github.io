@@ -11,7 +11,7 @@ member:
   position: Boss
   social:
     - title: linkedin
-      url: https://linkedin.com/in/
+      url: https://www.linkedin.com/in/rajaramanbalaji/
   description: |
     ISO Audit Guru is promoted by Balaji Rajaraman, a Printing Technologist, Lead Auditor &amp; Consultant in Quality,
     Environment, Occupational Health &amp; Safety, Energy and Information Security Management Systems. He has over 750 man-
@@ -20,7 +20,7 @@ member:
 
 social:
   - title: linkedin
-    url: https://linkedin.com/in/
+    url: https://www.linkedin.com/in/rajaramanbalaji/
 
 markdown: kramdown
 permalink: pretty
