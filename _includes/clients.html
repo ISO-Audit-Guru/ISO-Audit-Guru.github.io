@@ -7,15 +7,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="row text-center">ASE Structure Design Pvt. Ltd.</div><br>
-            <div class="row text-center">BGR Energy Pvt. Ltd.</div><br>
-            <div class="row text-center">Guru Sai HR Management Services Pvt. Ltd.</div><br>
-            <div class="row text-center">Jouve (India) Pvt. Ltd.</div><br>
-            <div class="row text-center">LM Van Moppes Pvt. Ltd.</div><br>
-            <div class="row text-center">Maxwell Geosystems Private Limited</div><br>
-            <div class="row text-center">Raasi Facility Management Services Pvt. Ltd.</div><br>
-            <div class="row text-center">Royal Plastics</div><br>
-            <div class="row text-center">Yaltech Global Pvt. Ltd.</div><br>
+            <div class="client_logo-carousel">
+                {% for image in site.static_files %}
+                {% if image.path contains 'client_logos/' %}
+                <div class="slide slide--has-caption slick-slide">
+                    <img data-lazy="{{ site.baseurl }}{{ image.path }}" alt="image" height="30"/>
+                    {% assign substr = image.path | split: '.' %}
+                    <div class="slide__caption">{{ substr[0] | split: '/client_logos/' }}</div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
         </div>
     </div>
 </section>
