@@ -340,6 +340,7 @@ html,body{
         margin-right: auto; */
     }    
     .about-row {
+    margin-bottom: 25px;
     justify-content: center;
     flex-flow:row wrap;
     display: flex;
