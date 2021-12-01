@@ -5,7 +5,7 @@ title: IAG
 email: guru@isoauditguru.com
 description: "Improve Adapt Glitter"
 
-member:
+guru:
   name: Balaji Rajaraman
   pic: 42
   position: Boss
@@ -17,9 +17,21 @@ member:
     Environment, Occupational Health &amp; Safety, Energy and Information Security Management Systems, including Privacy Information Management System. He has over 750 man-days of audit and about 500 man-days of training experience. He has worked alongside reputed clients
     in Manufacturing, Service, IT/ITES, Healthcare, Finance and Education sectors.  
 
-social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/rajaramanbalaji/
+about:
+  part1: |
+    >  Management Systems Certifications help organisations win new businesses. We help organisations to get certified for various management system standards. We believe in adding value to the clients by diligently implementing a self-improving system that enhances the processes and assures the various stakeholders. All this while also ensuring you comply with your legal requirements and your certifications remain live year after year.
+  part2: |
+    Management systems are the method by which organizations manage the inter-related and interactive parts of their business in order to achieve their intended objectives. These objectives can relate to a number of different areas: product/service quality, operational efficiency, environmental performance, health and safety in the workplace, securing information assets, improving energy performance and many more! All the management systems follow a _Plan-Do-Check-Act_ cycle that has been a time-tested recipe for success for many an organisation. 
+
+color:
+  primary: 003298
+  secondary: 003298
+  secondary-dark: 333
+  muted: 777
+
+font:
+  primary: 'Montserrat,Helvetica,Arial,sans-serif'
+  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
 
 markdown: kramdown
 permalink: pretty
